@@ -1,0 +1,123 @@
+$fonte-principal: "Noto Sans", sans-serif;
+
+$cor-de-fundo: #d8d8d8;
+$cor-de-fonte: #63737a;
+$cor-de-titulo: #373737;
+$cor-de-destaque: #333333;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fonte-principal;
+}
+
+body {
+  max-width: 786px;
+  padding: 1rem;
+  background-color: $cor-de-fundo;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+
+  &::before {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  &__descricao {
+    display: flex;
+    flex-direction: column;
+
+    &-titulo {
+      color: $cor-de-fonte;
+
+      & span {
+        color: $cor-de-destaque;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__avatar {
+    width: 40%;
+    max-width: 200px;
+    margin-block: 4rem;
+  }
+}
+
+.descricao {
+  margin-bottom: 1.5rem;
+
+  &__titulo {
+    color: $cor-de-titulo;
+    margin-bottom: 1rem;
+  }
+
+  &__texto {
+    color: $cor-de-fonte;
+
+    &:last-child {
+      margin-top: 10px;
+    }
+  }
+
+  &__link {
+    color: $cor-de-fonte;
+    text-decoration: underline;
+  }
+}
+
+.favoritos {
+  &__container {
+    margin-bottom: 1.5rem;
+  }
+
+  &__titulo {
+    color: $cor-de-titulo;
+    margin-bottom: 1rem;
+  }
+
+  & summary {
+    color: $cor-de-fonte;
+  }
+
+  ul,
+  ol {
+    list-style-type: none;
+  }
+
+  & iframe {
+    width: 100%;
+    margin-block: 15px;
+  }
+
+  &__filmes iframe {
+    height: 375px;
+    max-width: 575px;
+  }
+
+  &__musicas iframe {
+    max-width: 375px;
+    height: 100px;
+  }
+  &__link {
+    color: $cor-de-fonte;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.rodape {
+  &__texto {
+    color: $cor-de-fonte;
+  }
+
+  &__links {
+    text-decoration: none;
+    color: $cor-de-destaque;
+    font-weight: 700;
+  }
+}

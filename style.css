@@ -1,0 +1,94 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  max-width: 786px;
+  padding: 1rem;
+  background-color: #e5e5e0;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+.header__descricao {
+  display: flex;
+  flex-direction: column;
+}
+.header__descricao-titulo {
+  color: #5e7078;
+}
+.header__descricao-titulo span {
+  color: #1a1a1f;
+  font-weight: 700;
+}
+.header__avatar {
+  width: 40%;
+  max-width: 200px;
+  margin-block: 0.5rem;
+}
+
+.descricao {
+  margin-bottom: 1.5rem;
+}
+.descricao__titulo {
+  color: #464646;
+  margin-bottom: 1rem;
+}
+.descricao__texto {
+  color: #5e7078;
+}
+.descricao__texto:last-child {
+  margin-top: 10px;
+}
+.descricao__link {
+  color: #5e7078;
+  text-decoration: underline;
+}
+
+.favoritos__container {
+  margin-bottom: 1.5rem;
+}
+.favoritos__titulo {
+  color: #464646;
+  margin-bottom: 1rem;
+}
+.favoritos summary {
+  color: #5e7078;
+}
+
+.favoritos ul,
+.favoritos ol {
+  list-style-type: none;
+}
+.favoritos iframe {
+  width: 100%;
+  margin-block: 15px;
+}
+.favoritos__filmes iframe {
+  height: 375px;
+  max-width: 575px;
+}
+.favoritos__musicas iframe {
+  max-width: 375px;
+  height: 100px;
+}
+.favoritos__link {
+  color: #5e7078;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rodape__texto {
+  color: #5e7078;
+}
+.rodape__links {
+  text-decoration: none;
+  color: #1a1a1f;
+  font-weight: 700;
+} /*# sourceMappingURL=style.css.map */
