@@ -6,4 +6,4 @@ Para o nosso segundo desafio, vamos colocar a mão na massa! 💻 Vocês devem c
 
 | Nome da Atividade | Descrição do projeto                                                  | Tecnologias utilizadas | Deploy   |
 | ----------------- | --------------------------------------------------------------------- | ---------------------- | -------- |
-| Mini Wiki         | Criar uma mini wiki sobre você usando HTML e estilizando com SASS. 🎨 | HTML, SASS             | [Link](https://jooao7.github.io/vai-na-web-mini-wiki/){:target="_blank"} |
+| Mini Wiki         | Criar uma mini wiki sobre você usando HTML e estilizando com SASS. 🎨 | HTML, SASS             | [Link](https://jooao7.github.io/vai-na-web-mini-wiki/) |
